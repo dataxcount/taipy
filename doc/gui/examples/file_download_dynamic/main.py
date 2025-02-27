@@ -5,7 +5,7 @@ from pages.root import root
 
 pages = {
     '/':root,
-    'etablissements/actusXY':page1_md,
+    'pages_grp1/page1':page1_md,
 }
 
 lov_navbar = [("/pages_grp1/page1", "Example 1")]
