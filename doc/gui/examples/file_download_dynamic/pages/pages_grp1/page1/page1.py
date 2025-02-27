@@ -30,8 +30,9 @@ def pi(precision: int) -> list[int]:
 
 # Remove the temporary file
 def clean_up(state):
+    print("Inside start")
     os.remove(state.temp_path)
-
+    print("Inside end")
 
 # Generate the digits, save them in a CSV temporary file, then trigger a download action
 # for that file.
