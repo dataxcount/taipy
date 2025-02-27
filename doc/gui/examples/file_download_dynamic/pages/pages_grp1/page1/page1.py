@@ -42,7 +42,7 @@ def download_pi(state):
         temp_file.write("index,digit\n")
         for i, d in enumerate(digits):
             temp_file.write(f"{i},{d}\n")
-    download(state, content=temp_file.name, name="pi.csv", on_action=clean_up)
+    download(state, content=temp_file.name, name="pi.csv", on_action="clean_up")
 
 
 # Initial precision
